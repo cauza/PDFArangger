@@ -44,14 +44,14 @@ for ($swop = 1; $swop <= $jml_swop; $swop++) {
 
     $pdf->addPage('L', array(470, 320));
     $pdf->useTemplate($templateId8, $x_point1, $y_point1, $lebar, $tinggi, true);
-    $pdf->useTemplate($templateId3, $x_point2, $y_point1, $lebar, $tinggi, true);
+    $pdf->useTemplate($templateId1, $x_point2, $y_point1, $lebar, $tinggi, true);
     $pdf->useTemplate($templateId6, $x_point1, $y_point2, $lebar, $tinggi, true);
-    $pdf->useTemplate($templateId1, $x_point2, $y_point2, $lebar, $tinggi, true);
+    $pdf->useTemplate($templateId3, $x_point2, $y_point2, $lebar, $tinggi, true);
 
     $pdf->addPage('L', array(470, 320));
-    $pdf->useTemplate($templateId4, $x_point1, $y_point1, $lebar, $tinggi, true);
+    $pdf->useTemplate($templateId2, $x_point1, $y_point1, $lebar, $tinggi, true);
     $pdf->useTemplate($templateId7, $x_point2, $y_point1, $lebar, $tinggi, true);
-    $pdf->useTemplate($templateId2, $x_point1, $y_point2, $lebar, $tinggi, true);
+    $pdf->useTemplate($templateId4, $x_point1, $y_point2, $lebar, $tinggi, true);
     $pdf->useTemplate($templateId5, $x_point2, $y_point2, $lebar, $tinggi, true);
 }
 
