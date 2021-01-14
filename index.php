@@ -33,7 +33,7 @@
             user-select: none;
         }
 
-        .margin-top{
+        .margin-top {
             margin-top: 100px;
         }
 
@@ -79,15 +79,43 @@
                 <div class="form-check">
                     <input class="form-check-input" type="radio" name="pilihan" id="exampleRadios1" value="1" checked>
                     <label class="form-check-label" for="exampleRadios1">
-                        A5 Lanscape
+                        Haramain
                     </label>
                 </div>
                 <div class="form-check">
                     <input class="form-check-input" type="radio" name="pilihan" id="exampleRadios2" value="2">
                     <label class="form-check-label" for="exampleRadios2">
-                        A4 Portrait
+                        Raudhah
                     </label>
                 </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="pilihan" id="exampleRadios3" value="3">
+                    <label class="form-check-label" for="exampleRadios3">
+                        Medina Series
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="pilihan" id="exampleRadios4" value="4">
+                    <label class="form-check-label" for="exampleRadios4">
+                        Mecca Series
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="pilihan" id="exampleRadios5" value="5">
+                    <label class="form-check-label" for="exampleRadios5">
+                        Mecca Series Portrait
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="pilihan" id="exampleRadios6" value="6">
+                    <label class="form-check-label" for="exampleRadios6">
+                        Multazam Series
+                    </label>
+                </div>
+
+
+
+
                 <button type="submit" class="btn btn-primary">Submit</button>
             </form>
         </div>
