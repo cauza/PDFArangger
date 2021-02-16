@@ -28,6 +28,8 @@ if ($terupload) {
         echo "Convert ke A3 : <a href='/pdf/a6toa3portrait.php?file=".$nama_file_unik."'>".$nama_file_unik."</a>";
     } else if ($_POST['pilihan'] == '6') {
         echo "Convert ke A3 : <a href='/pdf/multazam.php?file=" . $nama_file_unik . "'>" . $nama_file_unik . "</a>";
+    } else if ($_POST['pilihan'] == '7') {
+        echo "Convert ke A3 : <a href='/pdf/raudhahlanscape.php?file=" . $nama_file_unik . "'>" . $nama_file_unik . "</a>";
     } else {
 	  echo "Belum memasukkan pilihan";
     }
