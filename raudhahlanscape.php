@@ -25,8 +25,8 @@ for ($swop = 1; $swop <= $jml_swop; $swop++) {
 
     // get the size of the imported page
     $size = $pdf->getTemplateSize($templateId1);
-    $lebar = 210;
-    $tinggi = 300;
+    $lebar = 300;
+    $tinggi = 210;
     $x_point1 = 10;
     $y_point1 = 25;
     $x_point2 = 10;
@@ -34,11 +34,11 @@ for ($swop = 1; $swop <= $jml_swop; $swop++) {
 
     $pdf->addPage('P', array(470, 320));
     $pdf->useTemplate($templateId1, $x_point1, $y_point1, $lebar, $tinggi, true);
-    $pdf->useTemplate($templateId3, $x_point2, $y_point1, $lebar, $tinggi, true);
+    $pdf->useTemplate($templateId3, $x_point2, $y_point2, $lebar, $tinggi, true);
 
     $pdf->addPage('P', array(470, 320));
-    $pdf->useTemplate($templateId4, $x_point1, $y_point1, $lebar, $tinggi, true);
-    $pdf->useTemplate($templateId2, $x_point2, $y_point1, $lebar, $tinggi, true);
+    $pdf->useTemplate($templateId2, $x_point1, $y_point1, $lebar, $tinggi, true);
+    $pdf->useTemplate($templateId4, $x_point2, $y_point2, $lebar, $tinggi, true);
 }
 
 $pdf->Output();
